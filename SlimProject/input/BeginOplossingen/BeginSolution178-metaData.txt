@@ -1,0 +1,9 @@
+Solution number: 178
+Decline Penalty: 100805.39999999947
+EndTimes: 365013.0
+score: 465818.39999999944
+Minutes: 7763
+
+Started running at: 1530813921797
+Ended running at: 1530813921833
+0 minutes and 0 deciseconds

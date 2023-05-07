@@ -1,0 +1,70 @@
+% Configuratie Instellingen
+Machine:ZenBook
+Batch:Testbest
+agreeability:true
+printIts:false
+saveSolutions:false
+kvan:1
+ktot:1
+vanSol:1
+totSol:30
+itsM:100
+
+
+
+
+
+
+
+% Moeten worden ingevuld door programma - resultaten
+k:empty
+run:empty
+SCORE:0
+AVG_SCORE:empty
+best score:empty
+standardDeviation:
+runTime:empty
+avgRuntime:empty
+machineBest: empty
+% Moeten worden ingevuld door programma - technisch
+Config
+GloveParams
+SACosParams
+SAParams
+Results
+Settings
+Comment
+
+% TODO check primes
+% GloVe parameters
+windowSize, min:38, max:38, prime:2 %% voor Integers rondt af naar beneden
+iterations, min:75, max:75, prime:3 %% voor Integers rondt af naar beneden
+vectors, min:10, max:10, prime:5 %% voor Integers rondt af naar beneden
+xMax, min:630, max:630, prime:7
+learningRate, min:55, max:55, prime:11 %% Te hoog en hij werkt niet meer
+alphaGlove, min:850, max:850, prime:13
+weightF, min:1, max:1, prime:17 %% voor Integer 1 tot 3 vul in 1 tot 4 (want rondt af naar beneden)
+
+
+% SACos parameters
+distanceSA, min:38, max:38, prime:2
+w_Replace, min:1, max:1, prime:17
+w_Add, min:0.4, max:0.4, prime:19 %% niet zo hoog als replace, max 20
+w_Remove, min:0.4, max:0.4, prime:23 %% niet zo hoog als replace, max 20 ofzo
+cap, min:0.03, max:0.03, prime:3 %% cap -1 tot oneindig
+
+
+
+
+% SA parameters
+T, min:195, max:195, prime:2
+alpha, min:0.972, max:0.972, prime:3
+Q, min:370400, max:370400, prime:5
+twoOpt, min:6, max:6, prime:7
+add, min:96, max:96, prime:11
+remove, min:9, max:9, prime:13
+relocateSame, min:41, max:41, prime:17
+relocateDiff, min:74, max:74, prime:19
+
+
+COMMENT: Zenbook___

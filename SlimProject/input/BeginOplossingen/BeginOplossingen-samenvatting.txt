@@ -1,0 +1,29 @@
+COMMENTS
+BeginOplossingen
+200 BeginOplossingen
+
+From Solution 1
+To Solution 200
+Average score: 465479.17999999685
+Average score in minutes: 7757
+Best score: 7464
+Started running at: 1530813874895
+Ended running at: 1530813928248
+So it took: 0 minutes and 533 deciseconds
+which is 0 minutes and 2 deciseconds per solution
+
+PARAMETERS
+number of Simulated Annealing runs: 1000000
+times TwoOpt: 4
+times add Order at best place: 0
+times add Order at random place: 120
+times remove Order: 9
+times move Order same day random: 30
+times move Order same day best: 0
+times move Order different day best: 0
+times move Order different day random: 80
+itemsets: true
+scale: 60
+transactionsize: 0
+alpha for big runs: 0.993
+intial T: 165

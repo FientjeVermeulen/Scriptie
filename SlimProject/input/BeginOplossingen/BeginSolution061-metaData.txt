@@ -1,0 +1,9 @@
+Solution number: 61
+Decline Penalty: 70435.79999999962
+EndTimes: 386751.2
+score: 457186.99999999965
+Minutes: 7619
+
+Started running at: 1530813890319
+Ended running at: 1530813890357
+0 minutes and 0 deciseconds
